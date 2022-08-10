@@ -1,0 +1,20 @@
+.block-associations{
+    width: 1000px;
+    margin-top: 50px;
+}
+.img-brand{
+    width: 183px;
+    height: 63px;
+    margin: 10px 10px 10px 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 1200px){
+    .responsive{
+        display: none;
+    }
+    .block-associations{
+        margin-top: 50px;
+    }
+}

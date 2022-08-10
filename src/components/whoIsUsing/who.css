@@ -1,0 +1,40 @@
+.bg{
+    background-color: #F9F3FF;;
+}
+.block-img{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 40px 0px 40px 0px;
+    padding: 20px;
+}
+.dot{
+    margin: 0px 15px 0px 15px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: grey;
+}
+.on{
+    border:#F6CC46;;
+    background-color: #F6CC46;;
+}
+
+.hidden-Who{
+    display: none;
+}
+
+.responsiveImg{
+    display: block;
+}
+@media only screen and (max-width: 1024px){
+    .responsiveDots{
+        display: block;
+    }
+    .responsiveImg{
+        display: none;
+    }
+
+    
+}
